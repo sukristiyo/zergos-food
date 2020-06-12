@@ -199,4 +199,49 @@ section.img .jumbotron .row .text {
   line-height: 30px;
 }
 
+section.img .jumbotron ul li {
+  margin-top: 20px;
+}
+
+section.img .jumbotron ul li.text-small {
+  font-weight: 500;
+  font-size: 15px;
+  color: darkgrey;
+}
+
 /* section-img */
+
+/* section about */
+section.about {
+  background-color: #1a1a1a;
+  margin-top: -200px;
+}
+
+section.about .container {
+  display: flex;
+  background-color: #252525;
+  height: 700px;
+  width: 1000px;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+}
+
+section.about .container .heading h1 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 30%;
+  position: absolute;
+  z-index: 0;
+}
+
+section.about .container .heading h4 {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* section about */
