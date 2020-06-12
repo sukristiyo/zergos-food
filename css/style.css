@@ -133,8 +133,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* navbar */
 .navbar {
   height: 91px;
+}
+
+.navbar .navbar-nav a {
+  font-weight: 700;
+  color: aliceblue !important;
 }
 
 .navbar .navbar-nav a:hover {
@@ -145,3 +151,52 @@ body {
   color: #34c759 !important;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar .navbar-nav a {
+    margin-right: 0px !important;
+    font-weight: 700;
+    margin-left: auto;
+    color: aliceblue !important;
+  }
+}
+/* navbar */
+
+/* button */
+section.img .jumbotron .row-button button {
+  background-color: #34c759;
+  height: 72px;
+  width: 220px;
+  border-radius: 31px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+/* button */
+
+/* section-img */
+section.img .jumbotron {
+  background-image: url("../img/Background.jpg");
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -91px;
+}
+
+section.img .jumbotron .container {
+  margin-top: 100px;
+  color: aliceblue !important;
+  text-align: center;
+}
+
+section.img .jumbotron .row .text {
+  font-weight: 300 !important;
+  line-height: 30px;
+}
+
+/* section-img */
